@@ -1,0 +1,17 @@
+/*
+ Localizable.strings
+ AoniCarDv
+ 
+ Created by aoni on 2017/4/26.
+ Copyright © 2017年 aoni. All rights reserved.
+ */
+
+"cancel" = "取消";
+"ok" = "确定";
+
+"tab_camera" = "记录仪";
+"tab_media" = "本地相册";
+"add_share_image" = "分享照片";
+"add_share_video" = "分享视频";
+"add_share_route" = "历史轨迹";
+
