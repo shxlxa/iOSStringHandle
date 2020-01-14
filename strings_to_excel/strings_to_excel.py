@@ -17,6 +17,7 @@ def write_file(xls, sheet, key_list, string_name, index):
 	lines = file.readlines()
 	# print(lines)
 	file.close()
+	sheet.write(0,index,string_name.split('.')[0])
 	item_num = 0
 	for line in lines:
 	    new_line = line.strip('\n')
