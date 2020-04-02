@@ -6,12 +6,14 @@
  Copyright © 2017年 aoni. All rights reserved.
  */
 
+"add_share_video" = "Video Share";
+"add_share_route" = "Track List";
+
 "cancel" = "Cancel";
 "ok" = "OK";
 
 
-"add_share_video" = "Video Share";
-"add_share_route" = "Track List";
+
 
 
 
