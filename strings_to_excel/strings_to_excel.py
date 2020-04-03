@@ -42,7 +42,7 @@ def write_multi_strings():
 	# 1.将cn.string中的key和value写到excel文件1.xls中
 	xls = ExcelWrite.Workbook()
 	sheet = xls.add_sheet("sheet1")
-	write_file(xls, sheet, [], "cn.strings", 1)
+	write_file(xls, sheet, [], "zh-Hans.strings", 1)
 	
 	# 2.读取1.xls中key的列表，保存在数组key_list中
 	key_list = readXmls()
@@ -50,7 +50,9 @@ def write_multi_strings():
 
 	# 3.写入其他语言的string文件，写入时会将该string语言的key与key_list对比，保证写到1.xls
 	#   中相同key的那一行里
-	languagesStrings = ["en.strings","tr.strings","fr.strings"]
+	languagesStrings = ["cs.strings","de.strings","en.strings","es.strings","et.strings"
+	,"fr.strings","hu.strings","it.strings","ja.strings","lt.strings","lv.strings","nl.strings",
+	"pl.strings","ro.strings","ru.strings","sk.strings","uk.strings","zh-Hant.strings"]
 	col_num = 1
 	for mString in languagesStrings:
 		col_num += 1

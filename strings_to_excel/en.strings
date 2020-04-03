@@ -6,14 +6,577 @@
  Copyright © 2017年 aoni. All rights reserved.
  */
 
+"cancel" = "Cancel";
+"ok" = "OK";
+"tab_camera" = "DVR";
+"tab_media" = "Local album";
+"add_share_image" = "Photo Share";
 "add_share_video" = "Video Share";
 "add_share_route" = "Track List";
 
-"cancel" = "Cancel";
-"ok" = "OK";
+"media_title_image" = "Photo";
+"media_title_video" = "Loop";
+"media_title_emergency" = "Event";
+"media_rightBarBuItem_select" = "Select";
+"take_picture_share_title" = "Share now";
+"take_picture_download_title" = "Download now";
+"select_all" = "Select All";
+"cancel_select_all" = "Unselect All";
+"exit" = "Exit";
+"already_select_count" = "Selected";
+"back" = "return";
+"nav_close" = "Close";
+"right_item_modify_title" = "Modify";
+
+"share_edit_right_item_title" = "Send";
+"share_edit_placeholder_title" = "Say something";
+"share_edit_be_uploading_video" = "Uploading video";
+"share_edit_be_downloading_video" = "Downloading";
+
+"share_view_title_wechat_moment" = "Moments";
+"share_view_title_wechat_contacts" = "Friends";
+"share_view_title_sina_weibo" = "Weibo";
+"share_view_title_system" = "System";
+"share_view_title_facebook" = "Facebook";
+"share_view_title_twitter" = "Twitter";
+
+"camera_connect_unconnected_title" = "Connect DVR";
+"camera_connect_connected_title" = "Enter DVR";
+"camera_record_button_title" = "Small video";
+"camera_take_photo_button_title" = "Snap";
+"camera_album_button_title" = "Photo album";
+
+"tip_open_road_state" = "Real-time traffic is turned on";
+"tip_close_road_state" = "Real-time traffic is off";
+
+"alert_title_camera_disconnect" = "Disconnect the recorder";
+"alert_msg_camera_disconnect" = "Are you sure you want to disconnect the recorder?";
+"alert_title_share_small_video" = "Share a small video";
+"alert_msg_share_small_video" = "Small video download completed, need to share it?";
+"camera_speed_label_title_km" = "Km/h";
+"camera_speed_label_title_miles" = "Mph";
+"save_media_success" = "Saved successfully";
+"download_finished_tip" = "Download completed";
+"image_downloaded_tip" = "Picture downloaded";
+"button_title_edit_video" = "Video editing";
+"delete_media_alert_title" = "Delete Files";
+"delete_media_alert_msg" = "Are you sure you want to delete the file?";
+"delete_media_success" = "Successfully deleted";
+"delete_media_fail" = "Failed to delete";
+"tableview_right_delete" = "Delete";
+
+"muti_download_title_image" = "Photo file download";
+"muti_download_title_video" = "Video file download";
+"muti_download_title_event" = "Event file download";
+"muti_download_cancel_all_download" = "Cancel all download";
+"muti_download_cell_progress" = "progress";
+
+"title_nav_map" = "Map";
+"title_nav_map_type" = "Map type";
+"title_cell_map_type" = "Map type";
+"title_cell_offline_map" = "Offline Map";
+"title_segment_offline_map_download" = "Download list";
+"title_segment_offline_map_city_list" = "City list";
+"title_offline_map_downloaded" = "Downloaded";
+"title_offline_map_downloading" = "Downloading";
+"title_section_nation" = "National";
+"title_section_munici" = "Popular Cities";
+"title_section_province" = "All Areas";
+"offline_map_right_delete" = "Delete";
+"offline_map_section_title_downloading" = "Downloading";
+"offline_map_section_title_updating" = "Updatable";
+"offline_map_section_title_downloaded" = "Downloaded";
+"offline_map_button_pause" = "Paused";
+"offline_map_button_downloading" = "Downloading";
+
+"offline_map_search_title" = "Search results";
+"offline_map_search_map_label_title" = "Please use the search box to search for an offline map";
+"offline_map_search_map_tip" = "Empty";
+"offline_map_no_search_result_label_title" = "No offline map found";
+"offline_map_type_gaode" = "AutoNavi Map";
+"offline_map_type_google" = "Google Map";
+"alert_cancel_share_title" = "Cancel";
+"alert_cancel_share_msg" = "Are you sure you want to cancel sharing?";
+"alert_download_before_share_title" = "Download video?";
+"alert_download_before_share_msg" = "Before sharing, you must first download the video. Are you sure you want to download it?";
+"alert_update_firmware_title" = "Update firmware";
+"alert_update_firmware_msg_header" = "Detected the latest firmware, updated content";
+"alert_update_firmware_msg_footer" = "Are you sure you want to update?";
+"alert_cancel_update_firmware_title" = "Cancel update";
+"alert_cancel_update_firmware_msg" = "Are you sure you want to cancel updating the firmware?";
+"alert_high_resolution_video_title" = "Play Prompt";
+"alert_high_resolution_video_msg" = "High-resolution video playback will not be smooth. Do you want to download this video?";
+"alert_high_resolution_video_play" = "Continue";
+"alert_high_resolution_video_download" = "Download";
+
+"alert_katon_video_msg" = "Your phone performance is not enough, 4K video playback may freeze.";
+
+"alert_driver_id_title" = "Driver ID length less than 9";
+"alert_driver_id_msg" = "Driver ID length less than 9，be continue？";
+
+"save_media_item_title" = "Save";
+"share_media_item_title" = "Share";
+"nav_title_share_video" = "Share Video";
+"edit_video_item_title" = "Next";
+"download_media_item_title" = "Download";
+"file_already_been_download" = "File downloaded";
+"file_being_downloading" = "Downloading...";
+"video_being_uploading" = "Uploading";
+"msg_camera_file_playing" = "Video is playing, please stop playing and then delete";
+"share_content_description" = "Let's go to the crowd";
+
+"tip_driver_id_num" = "Driver ID invalid(only numbers,letters or symbols";
+"tip_driver_id_length_error" = "Driver ID length can not be more than 9";
+"tip_driver_id_tf_placeholder" = "Enter 9 digits, letters or symbols";
+"tip_wifi_name_length_error" = "WiFi name length is wrong";
+"tip_wifi_name_format_error" = "The last 4 digits of the WiFi name can only be numbers or letters";
+"tip_wifi_psw_format_error" = "WiFi password can only be letters or numbers";
+"tip_wifi_psw_length_less" = "Password length must be 8 to 16";
+
+"tip_connect_camera_wifi" = "Please connect the recorder WiFi";
+"tip_camera_not_connected" = "Recorder is not connected";
+"tip_connect_network_before_share" = "Current network is unavailable";
+"tip_connect_fail" = "Failed to connect the recorder";
+"tip_wifi_reset_after_disconnect" = "Modified successfully, please reconnect the recorder";
+"tip_wifi_set_fail" = "WiFi setup failed";
+"tip_dialog_title" = "Tips";
+"tip_camera_disconnect" = "Recorder disconnected";
+"tip_edit_video_voice_off" = "Video sound off";
+"tip_edit_video_voice_on" = "Open video sound";
+"tip_not_allowed_play_online" = "Does not support online play, please download first!";
+"tip_rtsp_player_loading_fail" = "Failed to load";
+"tip_save_photo_success" = "Picture saved";
+"tip_save_small_video_success" = "Small video saved";
+"tip_video_player_loading_fail" = "Video failed to load";
+"tip_search_city" = "Please enter city name or Pinyin";
+"tip_connect_first" = "Please connect first";
+"tip_loading" = "Loading...";
+"tip_alert_title" = "Tips";
+"tip_alert_not_support_google_offline_map" = "Does not support Google offline map";
+"tip_be_setting_language" = "Setting language...";
+
+"tip_start_record_route" = "Start recording route";
+"tip_stop_record_route" = "Stop recording directions";
+"tip_share_success" = "Share success";
+"tip_share_fail" = "Sharing failed";
+"tip_share_cancel" = "Cancel";
+"tip_upload_fail" = "Upload fail,reupload";
+
+"tip_format_tf_card_success" = "Format TF card successful";
+"tip_default_setting_success" = "Restore factory settings successfully";
+"tip_connect_dialog_title" = "Please connect in WiFi settings";
+"tip_connect_dialog_wifi_name" = "Car-DVR-XXXX";
+"tip_connect_dialog_button_title" = "I know";
+"tip_upload_firmware_success" = "Upload firmware successfully";
+"msg_deleting_camera_file" = "Deleting...";
+"msg_taking_picture" = "Taking pictures...";
+"msg_taking_small_video" = "Recording small video";
+"msg_be_handling_video" = "Processing video";
+"msg_be_clearing_cache" = "Clearing cache...";
+"title_camera_name" = "Onyx Drive Recorder";
+"title_camera_setting" = "Recorder settings";
+"title_video_edit" = "Video Edit";
+"title_share_video" = "Select Video";
+"title_share_image" = "Select Photo";
+"title_have_downloaded" = "Downloaded";
+
+"title_share_to_platform" = "Share to";
+"title_record_time" = "Recording time";
+"title_cut_video_time" = "Clip time";
+"title_take_photo_time" = "Photographing time";
+"title_offline_map" = "Offline Map";
+"title_video_detail" = "Details";
+"title_wifi_not_connected" = "Not Connected";
+"title_wifi_connected" = "Connected";
+"title_about_official_web" = "Official Website";
+"title_about_app_version" = "Current Version";
+"title_about_privacy_agreement" = "Privacy Agreement";
+
+"title_about_company_name" = "Shenzhen Aoni Electronics Co., Ltd. All rights reserved";
+"title_about_copyright" = "Copyright © 2016-2018 by Aoni Inc";
+"title_about_app_name" = "HR09";
+"tip_newest_firmware" = "Already the latest firmware";
+"tip_file_md5_error" = "Incomplete file";
+"title_firmware_cancel_update" = "Cancel the upgrade";
+"title_firmware_button_update" = "Upgrade now";
+"title_firmware_update_attention" = "Do not unplug hardware power and operate physical keys during upgrade";
+"title_firmware_downloading" = "Downloading...";
+"title_firmware_uploading" = "Uploading...";
+"title_firmware_version" = "version";
+"title_firmware_upload_ok" = "Firmware uploaded successfully";
+"title_firmware_checking" = "Firmware check...";
+"title_firmware_check_result_unzip_fail" = "Decompression failed";
+"title_firmware_check_result_invalid_md5" = "File detection failed";
+"title_firmware_check_result_invalid_fm" = "Firmware detection failed";
+"title_firmware_check_result_invalid_md5Fail" = "Md5 check failed";
+"title_firmware_check_result_ok" = "Firmware check ok, start to upgrade";
+"title_no_connect_data" = "No connection record";
+"title_no_data" = "No data";
+"title_no_share_data" = "No sharing";
+"title_no_picture" = "No photos file";
+"title_no_normal_video" = "No video file";
+"title_no_event_video" = "No emergency video file";
+"title_no_share_video" = "No video";
+"title_no_video_locate_data" = "No location for shooting";
+"title_no_image_locate_data" = "No location for shooting";
+"nav_title_about" = "About";
+"nav_title_local_setting" = "Settings";
+"nav_title_connect_list" = "Connection Record";
+"nav_title_speed_unit" = "Speed ​​Unit";
+"nav_title_feedback" = "Feedback";
+"nav_title_language_setting" = "Language Setting";
+
+"app_setting_title_connect_list" = "Camare Connect List";
+"app_setting_title_offline_map" = "Map";
+"app_setting_title_auto_connect" = "Auto Connected Recorder";
+"app_setting_title_lane_line" = "Lane Line";
+"app_setting_speed_auto_unit" = "Speed ​​Unit";
+"app_setting_local_language" = "APP Language";
+"app_setting_speed_help" = "Help";
+"app_setting_title_clear_cache" = "Clear Cache";
+"app_setting_title_feedback" = "Feedback";
+"app_setting_title_about" = "About";
+"app_setting_title_app_version" = "Version";
+"app_setting_speed_km" = "Km/h";
+"app_setting_speed_miles" = "Mph";
+"clear_cache_alert_title" = "Clear cache";
+"clear_cache_alert_msg" = "Clearing the cache will clear all the thumbnails. Are you sure you want to clean up?";
+
+"feedback_section_title1" = "Problem Description";
+"feedback_section_title2" = "Add pictures (optional, up to 5)";
+"feedback_section_title3" = "Contact information";
+"feedback_textview_placeholder" = "Please enter feedback content";
+"feedback_contact_info" = "Please leave a mailbox or mobile number";
+"feedback_right_item_title" = "Submit";
+"feed_back_email_nil" = "Email or mobile phone number cannot be empty";
+"feed_back_email_format_error" = "Incorrect format of email or mobile number";
+
+// 添加音乐
+"add_music_header_title" = "Music";
+"add_music_save" = "Save";
+"add_music_share_video" = "Share video";
+"add_music_save_ok" = "Save video success";
+"add_music_saving" = "Saving video...";
+"add_music_navigation_title" = "Add Music";
+"add_music_itunes_title" = "Select Music";
+"add_music_itunes_format_error" = "Does not support this music format";
+"add_music_itunes_duration_error" = "Music duration must greater than video duration";
+
+"add_music_name_none" = "None";
+"add_music_name_iTunes" = "iTunes";
+"add_music_name_affect" = "Affect";
+"add_music_name_exciting" = "Exciting";
+"add_music_name_fresh" = "Fresh";
+"add_music_name_memory" = "Memory";
+"add_music_name_missing" = "Missing";
+"add_music_name_relax" = "Relax";
+"add_music_name_sentimental" = "Sentimental";
+"add_music_name_sexy" = "Sexy";
+"add_music_name_sunshine" = "Sunshine";
+"add_music_name_sweet" = "Sweet";
+
+"connect_record_dialog_title" = "Connect Info";
+"connect_record_dialog_psw" = "Password";
+
+"route_list_navigation_title" = "Track List";
+"route_detail_navigation_title" = "Track Details";
+"route_detail_distance" = "Distance";
+"route_detail_speed" = "Speed";
+"route_detail_start_time" = "StartTime";
+"route_detail_duration" = "Duration";
+
+"route_date_day" = "Day";
+"title_no_record_list" = "No record list";
+
+"alert_title_check_route" = "See the track";
+"alert_tip_check_route" = "Do you want to see the driving track？";
+
+"alert_title_delete_route" = "Delete track";
+"alert_tip_delete_route" = "Delete track record will not be recoverable, are you sure you want to delete it?";
+
+"tip_record_distance_short" = "The driving track is less than 100 meters and the track cannot be saved.";
 
 
+"close_locate_alert_title" = "Turn off background positioning";
+"close_locate_alert_msg" = "After turning off background positioning, your driving directions will not be recorded in real time. Are you sure you want to close it?";
+"photo_authorization_alert_title" = "You have closed photo permissions";
+"photo_authorization_alert_msg" = "Please open photo permissions for this app in \"Settings\"";
+"camera_authorization_alert_title" = "You have turned off camera permissions";
+"camera_authorization_alert_msg" = "Please turn on camera permissions for this app in \"Settings\"";
+"network_authorization_alert_title" = "You have turned off network permissions and may affect some function";
+"network_authorization_alert_msg" = "Please turn on network permissions for this app in \"Settings\"";
+"locate_authorization_alert_title" = "You have turned off location permissions, you can't use maps and record directions";
+"locate_authorization_alert_msg" = "Please turn on always targeting permissions for this app in \"Settings\"";
+"camera_setting_category_title1" = "System settings";
+"camera_setting_category_title2" = "Security Settings";
+"camera_setting_category_title3" = "WiFi settings";
+"camera_setting_category_title4" = "Recorder information";
+"camera_setting_wifi_psw" = "Enter WiFi password";
+"format_tf_card_alert_sub_title" = "Are you sure you want to delete all files in the TF card?";
+"default_setting_sub_title" = "Restore system settings to factory?";
+"introduce_title_page1" = "Intelligent control, arbitrary";
+"introduce_title_page2" = "Live viewing, video playback";
+"introduce_title_page3" = "A wonderful moment, a key share";
+"introduce_title_page4" = "Road track, positioning view";
+"introduce_title_page5" = "Automatic detection, firmware upgrade";
+"introduce_title_skip_button" = "Skip";
+"introduce_title_experience_button" = "Experience now";
 
+"privacy_agreement_title" = "App User Agreement";
+"privacy_agreement_content_highlight" = "\"User Agreement\"";
+
+"privacy_agreement_content" = "Welcome to using our App, we attach great importance to your privacy protection and personal information protection. Please read all the terms of the \"User Agreement\" before you use the App Service. If you agree to the User Agreement, please click \"Agree\" to starting using our products and services, we will do our best to protect your information.";
+
+"privacy_agreement_btn_disagree" = "Disagree";
+"privacy_agreement_btn_agree" = "Agree";
+"privacy_agreement_dialog_content" = "After agreeing to the \"User Agreement\", you can use the App.";
+"privacy_agreement_dialog_ok" = "I kown";
+
+"error_network_disconnect" = "Network connection has been interrupted";
+"error_msg_unknown" = "unknown mistake";
+"error_msg_reach_max_client" = "Recorder photo reached the upper limit, please delete some photos before taking photos";
+"error_msg_command_timeout" = "Time out";
+"error_msg_system_busy" = "The system is busy";
+"error_msg_no_more_space" = "Not enough space";
+"error_msg_invalid_param" = "Invalid argument";
+"error_msg_invalid_path" = "Invalid path";
+"error_msg_invalid_operation" = "Invalid operation";
+"error_msg_invalid_no_tfcard" = "The recorder is not inserted into the memory card";
+"error_msg_invalid_operation_unsupported" = "Operation does not support";
+"error_msg_invalid_option_value" = "Invalid setting value";
+"error_msg_unformat_card" = "The memory card format is incorrect, please format it";
+"error_msg_format_fail" = "Format Fail";
+
+"alert_title_connect_car" = "The recorder has been connected to the car";
+"alert_msg_connect_car" = "The recorder is connected to the car, whether to disconnect the car from the phone？";
+
+
+"SETTING_ITEM_TIME_OPTION_TITLE" = "Time Setting";
+"SETTING_ITEM_TIME_OPTION_AUTO" = "Auto Sync";
+"SETTING_ITEM_TIME_OPTION_MANUAL" = "Manual Setting";
+
+"SETTING_ITEM_VOLUME_OPTION_TITLE" = "Volume";
+"SETTING_ITEM_VOLUME_OPTION_OFF" = "Off";
+"SETTING_ITEM_VOLUME_OPTION_LOW" = "Low";
+"SETTING_ITEM_VOLUME_OPTION_MEDIUM" = "Medium";
+"SETTING_ITEM_VOLUME_OPTION_HIGH" = "High";
+"SETTING_ITEM_VOLUME_OPTION_100%" = "100%";
+"SETTING_ITEM_VOLUME_OPTION_75%" = "75%";
+"SETTING_ITEM_VOLUME_OPTION_50%" = "50%";
+"SETTING_ITEM_VOLUME_OPTION_MUTE" = "Mute";
+
+
+"SETTING_ITEM_BUTTON_SOUND_OPTION_TITLE" = "Beep Sound";
+
+"SETTING_ITEM_LANGUAGE_OPTION_TITLE" = "DVR Language";
+
+"SETTING_ITEM_LANGUAGE_OPTION_CHINA_SIMPLE" = "简体中文";
+"SETTING_ITEM_LANGUAGE_OPTION_CHINESESIMPLE" = "简体中文";
+"SETTING_ITEM_LANGUAGE_OPTION_ENGLISH" = "English";
+"SETTING_ITEM_LANGUAGE_OPTION_CHINA_COMPLEX" = "繁體中文";
+"SETTING_ITEM_LANGUAGE_OPTION_CHINESECOMPLEX" = "繁體中文";
+"SETTING_ITEM_LANGUAGE_OPTION_RUSSIA" = "Pусский"; // 俄语
+"SETTING_ITEM_LANGUAGE_OPTION_ITALIAN" = "Lingua italiana";// 意大利
+"SETTING_ITEM_LANGUAGE_OPTION_UKRAINIAN" = "Українська"; //乌克兰
+"SETTING_ITEM_LANGUAGE_OPTION_ESTONIAN" = "Estoński"; // 爱沙尼亚
+"SETTING_ITEM_LANGUAGE_OPTION_LATVIAN" = "Latviešu"; // 拉脱维亚
+"SETTING_ITEM_LANGUAGE_OPTION_POLISH" = "Polski";// 波兰
+"SETTING_ITEM_LANGUAGE_OPTION_ROMANIAN" = "România"; //罗马尼亚
+"SETTING_ITEM_LANGUAGE_OPTION_SLOVAK" = "Slovenčina"; //斯洛伐克
+"SETTING_ITEM_LANGUAGE_OPTION_CZECH" = "čeština"; //捷克
+"SETTING_ITEM_LANGUAGE_OPTION_HUNGARIAN" = "Magyar"; //匈牙利
+"SETTING_ITEM_LANGUAGE_OPTION_JAPAN" = "日本語";
+"SETTING_ITEM_LANGUAGE_OPTION_GERMAN" = "Deutsche"; // GERMAN
+"SETTING_ITEM_LANGUAGE_OPTION_SPANISH" = "Español"; // 西班牙
+"SETTING_ITEM_LANGUAGE_OPTION_FRENCH" = "Français"; // 法国
+"SETTING_ITEM_LANGUAGE_OPTION_LITHUANIAN" = "Lithuanian"; //立陶宛
+"SETTING_ITEM_LANGUAGE_OPTION_PORTUGAL" = "Português"; // 葡萄牙
+
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_TITLE" = "Auto Screen Off";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_OFF" = "Off";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_30SEC" = "30 Seconds";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_1MIN" = "1 Minute";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_3MIN" = "3 Minutes";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_5MIN" = "5 Minutes";
+
+"SETTING_ITEM_MIC_OPTION_TITLE" = "Record Audio";
+
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_TITLE" = "Auto Power Off";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_OFF" = "Off";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_1MIN" = "1 Minute";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_3MIN" = "3 Minutes";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_5MIN" = "5 Minutes";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_30SEC" = "30 Seconds";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_60SEC" = "60 Seconds";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_90SEC" = "90 Seconds";
+
+"SETTING_ITEM_FLICKER_OPTION_TITLE" = "Light Frequency";
+"SETTING_ITEM_FLICKER_OPTION_AUTO" = "Automatic";
+"SETTING_ITEM_FLICKER_OPTION_50HZ" = "50HZ";
+"SETTING_ITEM_FLICKER_OPTION_60HZ" = "60HZ";
+"SETTING_ITEM_EV_OPTION_TITLE" = "EV Setting";
+"SETTING_ITEM_STAMP_OPTION_TITLE" = "Video Watermark Label";
+"SETTING_ITEM_STAMP_OPTION_DATE" = "Date";
+"SETTING_ITEM_STAMP_OPTION_TIME" = "Time";
+"SETTING_ITEM_STAMP_OPTION_LOGO" = "Logo";
+"SETTING_ITEM_STAMP_OPTION_GPS" = "GPS";
+"SETTING_ITEM_STAMP_OPTION_SPEED" = "Speed";
+"SETTING_ITEM_STAMP_OPTION_DRIVER_ID" = "Driver ID";
+
+"SETTING_ITEM_DRIVER_ID_OPTION_TITLE" = "Driver ID Setting";
+"SETTING_ITEM_FORMAT_TF_OPTION_TITLE" = "Format TF Card";
+"SETTING_ITEM_DEFAULT_SETTING_OPTION_TITLE" = "Camera Settings Reset";
+
+
+"SETTING_ITEM_GSENSOR_OPTION_TITLE" = "Collision Sensitivity";
+"SETTING_ITEM_GSENSOR_OPTION_OFF" = "Off";
+"SETTING_ITEM_GSENSOR_OPTION_LOW" = "Low";
+"SETTING_ITEM_GSENSOR_OPTION_MEDIUM" = "Medium";
+"SETTING_ITEM_GSENSOR_OPTION_HIGH" = "High";
+
+"SETTING_ITEM_TIRED_TIP_OPTION_TITLE" = "Tired Tip";
+"SETTING_ITEM_TIRED_TIP_OPTION_OFF" = "Off";
+"SETTING_ITEM_TIRED_TIP_OPTION_30M" = "30 Minutes";
+"SETTING_ITEM_TIRED_TIP_OPTION_1H" = "1 Hour";
+"SETTING_ITEM_TIRED_TIP_OPTION_2H" = "2 Hours";
+"SETTING_ITEM_TIRED_TIP_OPTION_3H" = "3 Hours";
+"SETTING_ITEM_TIRED_TIP_OPTION_4H" = "4 Hours";
+
+"SETTING_ITEM_OPEN_LIGHT_OPTION_TITLE" = "Headlight Reminder";
+"SETTING_ITEM_MOTION_DETECT_OPTION_TITLE" = "Motion Detection";
+"SETTING_ITEM_PARKING_MODE_OPTION_TITLE" = "Parking Monitor";
+
+"SETTING_ITEM_FCMD_OPTION_TITLE" = "Stop And Go";
+"SETTING_ITEM_WIFI_SETTING_OPTION_TITLE" = "WiFi Settings";
+"SETTING_ITEM_TF_CARD_REMAIN_SPACE_OPTION_TITLE" = "TF Card Free Space";
+"SETTING_ITEM_CARDV_VERSION_TITLE" = "Version No.";
+"SETTING_ITEM_PRODUCT_NUM_TITLE" = "Product No.";
+"SETTING_ITEM_FIREWARE_CHECK_TITLE" = "Firmware Upgrade";
+
+"SETTING_ITEM_RESOLUTION_OPTION_TITLE" = "Resolution";
+"SETTING_ITEM_RESOLUTION_OPTION_1440P30FPS" = "1440P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1296P30FPS" = "1296P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P60FPS" = "1080P60FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P30FPS" = "1080P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P120FPS" = "720P120FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P60FPS" = "720P60FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P30FPS" = "720P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1524P30FPS" = "1524P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P1080P" = "1080P1080P";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P1080PR" = "1080P1080PR";
+"SETTING_ITEM_RESOLUTION_OPTION_1296P720P" = "1296P720P";
+"SETTING_ITEM_RESOLUTION_OPTION_1296P720PR" = "1296P720PR";
+"SETTING_ITEM_RESOLUTION_OPTION_1728X129630FPS" = "1296P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P720P" = "720P720P";
+
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_TITLE" = "Screen Display";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_FRONT" = "Front";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_REAR" = "Rear";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_BOTH" = "Both";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_BOTH_FRONT_FULL" = "Both Front Full";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_BOTH_REAR_FULL" = "Both Rear Full";
+
+"SETTING_ITEM_LOOP_RECORDING_OPTION_TITLE" = "Looping Video";
+"SETTING_ITEM_LOOP_RECORDING_OPTION_1MIN" = "1 Minute";
+"SETTING_ITEM_LOOP_RECORDING_OPTION_3MIN" = "3 Minutes";
+"SETTING_ITEM_LOOP_RECORDING_OPTION_5MIN" = "5 Minutes";
+
+"SETTING_ITEM_WDR_OPTION_TITLE" = "WDR";
+
+"SETTING_ITEM_RECORD_MODE_OPTION_TITLE" = "Record Mode";
+"SETTING_ITEM_RECORD_MODE_OPTION_OFF" = "Off";
+"SETTING_ITEM_RECORD_MODE_OPTION_1FPS" = "1FPS";
+"SETTING_ITEM_RECORD_MODE_OPTION_MOTION_DETECTION" = "Motion Detection";
+
+"SETTING_ITEM_SNG_OPTION_TITLE" = "Stop And Go";
+"SETTING_ITEM_SNG_OPTION_OFF" = "Off";
+"SETTING_ITEM_SNG_OPTION_ON" = "On";
+
+"SETTING_ITEM_TSR_OPTION_TITLE" = "Speed limit sign";
+"SETTING_ITEM_TSR_OPTION_OFF" = "Off";
+"SETTING_ITEM_TSR_OPTION_VOICE" = "Voice";
+"SETTING_ITEM_TSR_OPTION_WARNING_TONE" = "Warning Tone";
+
+"SETTING_ITEM_TSR_OPTION_ON" = "On";
+
+"SETTING_ITEM_FORMAT_REMIND_OPTION_TITLE" = "Format Reminder";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_OFF" = "Off";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_15DAYS" = "15 Days";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_30DAYS" = "30 Days";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_60DAYS" = "60 Days";
+
+"SETTING_ITEM_TIME_FORMAT_OPTION_TITLE" = "Date Format";
+"SETTING_ITEM_TIME_FORMAT_OPTION_YYYY/MM/DD" = "YYYY/MM/DD";
+"SETTING_ITEM_TIME_FORMAT_OPTION_MM/DD/YYYY" = "MM/DD/YYYY";
+"SETTING_ITEM_TIME_FORMAT_OPTION_DD/MM/YYYY" = "DD/MM/YYYY";
+
+"SETTING_ITEM_SLOW_RECORDING_OPTION_TITLE" = "Slow Recording";
+
+"SETTING_ITEM_BEEP_SOUND_OPTION_TITLE" = "Beep Sound";
+
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_TITLE" = "Image Quality";
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_SFINE" = "S.Fine";
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_FINE" = "Fine";
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_NORMAL" = "Normal";
+
+"SETTING_ITEM_HDR_OPTION_TITLE" = "HDR";
+
+"SETTING_ITEM_WB_OPTION_TITLE" = "WB";
+"SETTING_ITEM_WB_OPTION_AUTO" = "Auto";
+"SETTING_ITEM_WB_OPTION_INCANDESCENT" = "Incandescent";
+"SETTING_ITEM_WB_OPTION_SUNNY" = "Sunny";
+"SETTING_ITEM_WB_OPTION_CLOUDY" = "Cloudy";
+"SETTING_ITEM_WB_OPTION_FLUORESCENT" = "Fluorescent";
+
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_TITLE" = "Power On Delay";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_OFF" = "Off";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_10SEC" = "10 Seconds";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_20SEC" = "20 Seconds";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_30SEC" = "30 Seconds";
+
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_TITLE" = "Power Off Delay";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_OFF" = "Off";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_10SEC" = "10 Seconds";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_20SEC" = "20 Seconds";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_30SEC" = "30 Seconds";
+
+"SETTING_ITEM_OVERSPEED_OPTION_TITLE" = "Over Speed";
+"SETTING_ITEM_OVERSPEED_OPTION_OFF" = "Off";
+"SETTING_ITEM_OVERSPEED_OPTION_70KM" = "70km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_80KM" = "80km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_90KM" = "90km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_100KM" = "100km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_110KM" = "110km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_120KM" = "120km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_130KM" = "130km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_140KM" = "140km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_150KM" = "150km/h";
+
+"SETTING_ITEM_FCW_OPTION_TITLE" = "Front car collision reminder";
+
+"SETTING_ITEM_LDWS_OPTION_TITLE" = "Lane offset reminder";
+
+"SETTING_ITEM_SPEED_UNIT_OPTION_TITLE" = "Speed Unit";
+"SETTING_ITEM_SPEED_UNIT_OPTION_KM/H" = "km/h";
+"SETTING_ITEM_SPEED_UNIT_OPTION_MPH" = "mph";
+
+
+"SETTING_ITEM_GPS_FORMAT_OPTION_TITLE" = "GPS Format";
+"SETTING_ITEM_GPS_FORMAT_OPTION_DD" = "DD";
+"SETTING_ITEM_GPS_FORMAT_OPTION_DMM" = "DMM";
+
+"SETTING_ITEM_IR_LED_OPTION_TITLE" = "IR LED";
+"SETTING_ITEM_IR_LED_OPTION_ON" = "On";
+"SETTING_ITEM_IR_LED_OPTION_OFF" = "Off";
+"SETTING_ITEM_IR_LED_OPTION_AUTO" = "Auto";
+
+
+"SETTING_ITEM_DIS_OPTION_TITLE" = "DIS";
+"SETTING_ITEM_LDC_OPTION_TITLE" = "LDC";
+
+"SETTING_ITEM_RECORD_MODE_OPTION_SLOW_RECORDING" = "1FPS";
+"SETTING_ITEM_RECORD_MODE_OPTION_MOTION_DETECT" = "Motion Detection";
+"SETTING_ITEM_RECORD_MODE_OPTION_PARKING_MODE" = "Parking";
 
 
 

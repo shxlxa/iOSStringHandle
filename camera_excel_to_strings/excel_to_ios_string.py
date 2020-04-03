@@ -33,7 +33,7 @@ def saveFile(index_num,fileName):
 
 
 def saveStrings():
-	name_arr = ['en.strings', 'Italian.strings', 'spanish.strings', 'French.strings', 'German.strings', 'Dutch.strings']
+	name_arr = ['en.strings', 'zh.strings', 'zh_tr.strings', 'baojia.strings', 'et.strings', 'lt.strings', 'lv.strings', 'ro.strings', 'uk.strings', 'be.strings', 'ru.strings']
 	for value in name_arr:
 		idx = name_arr.index(value)
 		saveFile(idx+2, value)

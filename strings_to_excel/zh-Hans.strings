@@ -1,0 +1,632 @@
+/*
+ Localizable.strings
+ AoniCarDv
+ 
+ Created by aoni on 2017/4/26.
+ Copyright © 2017年 aoni. All rights reserved.
+ */
+
+"cancel" = "取消";
+"ok" = "确定";
+
+"tab_camera" = "记录仪";
+"tab_media" = "本地相册";
+"add_share_image" = "分享照片";
+"add_share_video" = "分享视频";
+"add_share_route" = "历史轨迹";
+
+"media_title_image" = "照片";
+"media_title_video" = "循环";
+"media_title_emergency" = "紧急";
+"media_rightBarBuItem_select" = "选择";
+"take_picture_share_title" = "立即分享";
+"take_picture_download_title" = "立即下载";
+
+"select_all" = "全选";
+"cancel_select_all" = "取消全选";
+"exit" = "退出";
+"already_select_count" = "已选";
+"back" = "返回";
+"nav_close" = "关闭";
+"right_item_modify_title" = "修改";
+"share_edit_right_item_title" = "发送";
+"share_edit_placeholder_title" = "说点什么吧";
+"share_edit_be_uploading_video" = "上传视频中...";
+"share_edit_be_downloading_video" = "下载中...";
+
+"share_view_title_wechat_moment" = "微信朋友圈";
+"share_view_title_wechat_contacts" = "微信好友";
+"share_view_title_sina_weibo" = "新浪微博";
+"share_view_title_system" = "系统分享";
+"share_view_title_facebook" = "facebook";
+"share_view_title_twitter" = "twitter";
+
+"camera_connect_unconnected_title" = "连接记录仪";
+"camera_connect_connected_title" = "进入记录仪";
+"camera_record_button_title" = "小视频";
+"camera_take_photo_button_title" = "拍照";
+"camera_album_button_title" = "相册";
+
+// 新增
+"tip_open_road_state" = "已开启实时路况";
+"tip_close_road_state" = "已关闭实时路况";
+"alert_title_camera_disconnect" = "断开记录仪连接";
+"alert_msg_camera_disconnect" = "确定要断开记录仪连接吗？";
+
+"alert_title_share_small_video" = "分享小视频";
+"alert_msg_share_small_video" = "小视频下载完成,需要分享吗？";
+
+"camera_speed_label_title_km" = "km/h";
+"camera_speed_label_title_miles" = "mph";
+
+"save_media_success" = "保存成功";
+"download_finished_tip" = "下载完成";
+"image_downloaded_tip" = "图片已下载";
+"button_title_edit_video" = "视频编辑";
+
+"delete_media_alert_title" = "删除文件";
+"delete_media_alert_msg" = "确定要删除文件吗？";
+"delete_media_success" = "删除成功";
+"delete_media_fail" = "删除失败";
+"tableview_right_delete" = "删除";
+
+"muti_download_title_image" = "照片文件下载";
+"muti_download_title_video" = "录像文件下载";
+"muti_download_title_event" = "紧急文件下载";
+"muti_download_cancel_all_download" = "全部取消下载";
+"muti_download_cell_progress" = "下载进度";
+
+// 地图
+"title_nav_map" = "地图";
+"title_nav_map_type" = "地图类型";
+"title_cell_map_type" = "地图类型";
+"title_cell_offline_map" = "离线地图";
+"title_segment_offline_map_download" = "下载管理";
+"title_segment_offline_map_city_list" = "城市列表";
+"title_offline_map_downloaded" = "已下载";
+"title_offline_map_downloading" = "下载中";
+
+"title_section_nation" = "全国";
+"title_section_munici" = "热门城市";
+"title_section_province" = "全部地区";
+
+"offline_map_right_delete" = "删除";
+"offline_map_section_title_downloading" = "正在下载";
+"offline_map_section_title_updating" = "可更新";
+"offline_map_section_title_downloaded" = "已下载";
+"offline_map_button_pause" = "已暂停";
+"offline_map_button_downloading" = "正在下载";
+
+"offline_map_search_title" = "搜索结果";
+"offline_map_search_map_label_title" = "请使用搜索框搜索需要的离线地图";
+"offline_map_search_map_tip" = "空空如也";
+"offline_map_no_search_result_label_title" = "没有找到相关离线地图";
+"offline_map_type_gaode" = "高德地图";
+"offline_map_type_google" = "谷歌地图";
+
+// alert
+"alert_cancel_share_title" = "取消分享";
+"alert_cancel_share_msg" = "确定要取消分享吗?";
+
+"alert_download_before_share_title" = "下载视频?";
+"alert_download_before_share_msg" = "分享前，必须要先下载该视频，确定要下载吗?";
+
+"alert_update_firmware_title" = "更新固件";
+"alert_update_firmware_msg_header" = "检测到最新固件,更新内容";
+"alert_update_firmware_msg_footer" = "确定要更新吗?";
+
+"alert_cancel_update_firmware_title" = "取消更新";
+"alert_cancel_update_firmware_msg" = "确定要取消更新固件吗?";
+
+"alert_high_resolution_video_title" = "播放提示";
+"alert_high_resolution_video_msg" = "高分辨率视频播放会不流畅，是否要下载该视频？";
+"alert_high_resolution_video_play" = "继续播放";
+"alert_high_resolution_video_download" = "下载视频";
+
+"alert_katon_video_msg" = "你的手机性能不够，播放4K视频可能会卡顿";
+
+"alert_driver_id_title" = "司机编码小于9位";
+"alert_driver_id_msg" = "司机编码小于9位，确定要继续吗？";
+
+"save_media_item_title" = "保存";
+"share_media_item_title" = "分享";
+"nav_title_share_video" = "分享视频";
+"edit_video_item_title" = "下一步";
+"download_media_item_title" = "下载";
+"file_already_been_download" = "文件已下载";
+"file_being_downloading" = "下载中...";
+"video_being_uploading" = "正在上传";
+"msg_camera_file_playing" = "视频正在播放，请停止播放后再删除";
+"share_content_description" = "小伙伴们快来围观吧";
+
+"tip_driver_id_num" = "司机编码不合法(只能是数字、字母或符号)";
+"tip_driver_id_length_error" = "司机编码长度不能超过9位";
+"tip_driver_id_tf_placeholder" = "请输入1-9位数字、字母或符号";
+"tip_wifi_name_length_error" = "WiFi名称长度不对";
+"tip_wifi_name_format_error" = "WiFi名称后4位只能是数字或字母";
+"tip_wifi_psw_format_error" = "WiFi密码只能是字母或数字";
+"tip_wifi_psw_length_less" = "WiFi密码长度必须为8到16位";
+
+"tip_connect_camera_wifi" = "请连接记录仪WiFi";
+"tip_camera_not_connected" = "记录仪没有连接";
+"tip_connect_network_before_share" = "当前网络不可用";
+"tip_connect_fail" = "连接记录仪失败";
+"tip_wifi_reset_after_disconnect" = "修改成功，请重新连接记录仪";
+"tip_wifi_set_fail" = "WiFi设置失败";
+"tip_dialog_title" = "温馨提示";
+"tip_camera_disconnect" = "记录仪断开连接";
+"tip_edit_video_voice_off" = "视频原音关闭";
+"tip_edit_video_voice_on" = "视频原音打开";
+"tip_not_allowed_play_online" = "不支持在线播放,请先下载!";
+"tip_rtsp_player_loading_fail" = "加载失败";
+"tip_save_photo_success" = "图片已保存";
+"tip_save_small_video_success" = "小视频已保存";
+"tip_video_player_loading_fail" = "视频加载失败";
+"tip_search_city" = "请输入城市名称或者拼音";
+"tip_connect_first" = "请先连接";
+"tip_loading" = "加载中...";
+"tip_alert_title" = "温馨提示";
+"tip_alert_not_support_google_offline_map" = "不支持谷歌离线地图";
+"tip_be_setting_language" = "正在设置语言...";
+
+"tip_start_record_route" = "开始记录路线";
+"tip_stop_record_route" = "停止记录路线";
+
+"tip_share_success" = "分享成功";
+"tip_share_fail" = "分享失败";
+"tip_share_cancel" = "取消分享";
+"tip_upload_fail" = "上传失败，重新上传";
+
+"tip_format_tf_card_success" = "格式化TF卡成功";
+"tip_default_setting_success" = "恢复出厂设置成功";
+"tip_connect_dialog_title" = "请在WiFi设置中连接";
+"tip_connect_dialog_wifi_name" = "Car-DVR-XXXX";
+"tip_connect_dialog_button_title" = "我知道了";
+"tip_upload_firmware_success" = "上传固件成功";
+
+"msg_deleting_camera_file" = "正在删除...";
+"msg_taking_picture" = "拍照中...";
+"msg_taking_small_video" = "正在录制小视频";
+"msg_be_handling_video" = "正在处理视频...";
+"msg_be_clearing_cache" = "正在清除缓存...";
+
+"title_camera_name" = "奥尼行车记录仪";
+"title_camera_setting" = "记录仪设置";
+"title_video_edit" = "视频剪辑";
+"title_share_video" = "选择视频";
+"title_share_image" = "选择照片";
+"title_have_downloaded" = "已下载";
+"title_share_to_platform" = "分享到";
+"title_record_time" = "录制时间";
+"title_cut_video_time" = "剪辑时间";
+"title_take_photo_time" = "拍照时间";
+"title_offline_map" = "离线地图";
+"title_video_detail" = "详细信息";
+"title_wifi_not_connected" = "未连接";
+"title_wifi_connected" = "已连接";
+
+"title_about_official_web" = "官方网站";
+"title_about_app_version" = "当前版本";
+"title_about_privacy_agreement" = "隐私协议";
+"title_about_company_name" = "深圳奥尼电子股份有限公司版权所有";
+"title_about_copyright" = "Copyright © 2016-2018 by Aoni Inc";
+"title_about_app_name" = "联想记录仪";
+
+//固件升级
+"tip_newest_firmware" = "已经是最新固件";
+"tip_file_md5_error" = "文件不完整";
+"title_firmware_cancel_update" = "取消升级";
+"title_firmware_button_update" = "立即升级";
+"title_firmware_update_attention" = "注：升级期间请勿拔掉硬件电源和操作物理按键";
+"title_firmware_downloading" = "正在下载固件...";
+"title_firmware_uploading" = "正在上传固件...";
+"title_firmware_version" = "版本更新";
+"title_firmware_upload_ok" = "固件上传成功";
+"title_firmware_checking" = "固件校验中...";
+"title_firmware_check_result_unzip_fail" = "解压失败";
+"title_firmware_check_result_invalid_md5" = "文件检测失败";
+"title_firmware_check_result_invalid_fm" = "固件检测失败";
+"title_firmware_check_result_invalid_md5Fail" = "md5校验失败";
+"title_firmware_check_result_ok" = "固件校验成功，开始升级";
+
+"title_no_connect_data" = "暂无连接记录";
+"title_no_data" = "暂无数据";
+"title_no_share_data" = "暂无分享";
+"title_no_picture" = "暂无照片文件";
+"title_no_normal_video" = "暂无录像文件";
+"title_no_event_video" = "暂无紧急录像文件";
+"title_no_share_video" = "暂无视频";
+"title_no_video_locate_data" = "暂无显示拍摄的地理位置";
+"title_no_image_locate_data" = "暂无显示拍摄的地理位置";
+
+"nav_title_about" = "关于";
+"nav_title_local_setting" = "设置";
+"nav_title_connect_list" = "连接记录";
+"nav_title_speed_unit" = "速度单位";
+"nav_title_feedback" = "问题反馈";
+"nav_title_language_setting" = "语言设置";
+
+// 本地设置
+"app_setting_title_connect_list" = "记录仪连接记录";
+"app_setting_title_offline_map" = "地图";
+"app_setting_title_auto_connect" = "自动连接记录仪";
+"app_setting_title_lane_line" = "车道辅助线";
+"app_setting_speed_auto_unit" = "速度单位";
+"app_setting_local_language" = "APP语言";
+"app_setting_speed_help" = "帮助";
+"app_setting_title_clear_cache" = "清除缓存";
+"app_setting_title_feedback" = "问题反馈";
+"app_setting_title_about" = "关于";
+"app_setting_title_app_version" = "版本";
+"app_setting_speed_km" = "km/h";
+"app_setting_speed_miles" = "mph";
+"clear_cache_alert_title" = "清除缓存";
+"clear_cache_alert_msg" = "清除缓存会清除所有的缩略图，确定要清理吗？";
+
+"feedback_section_title1" = "问题描述";
+"feedback_section_title2" = "添加图片(可选，最多5张)";
+"feedback_section_title3" = "联系方式";
+"feedback_textview_placeholder" = "请输入反馈内容";
+"feedback_contact_info" = "请留下邮箱或者手机号码";
+"feedback_right_item_title" = "提交";
+"feed_back_email_nil" = "邮箱或者手机号码不能为空";
+"feed_back_email_format_error" = "邮箱或者手机号码格式不正确";
+
+// 添加音乐
+"add_music_header_title" = "配乐";
+"add_music_save" = "保存";
+"add_music_share_video" = "分享视频";
+"add_music_save_ok" = "保存成功";
+"add_music_saving" = "正在保存视频...";
+"add_music_navigation_title" = "添加音乐";
+"add_music_itunes_title" = "选择音乐";
+"add_music_itunes_format_error" = "不支持该音乐格式";
+"add_music_itunes_duration_error" = "选择的音乐时长必须大于视频时长";
+
+"add_music_name_none" = "无";
+"add_music_name_iTunes" = "iTunes";
+"add_music_name_affect" = "感动";
+"add_music_name_exciting" = "兴奋";
+"add_music_name_fresh" = "清新";
+"add_music_name_memory" = "回忆";
+"add_music_name_missing" = "思念";
+"add_music_name_relax" = "放松";
+"add_music_name_sentimental" = "感伤";
+"add_music_name_sexy" = "性感";
+"add_music_name_sunshine" = "阳光";
+"add_music_name_sweet" = "甜蜜";
+
+"connect_record_dialog_title" = "连接信息";
+"connect_record_dialog_psw" = "密码";
+
+"route_list_navigation_title" = "历史轨迹";
+"route_detail_navigation_title" = "轨迹详情";
+"route_detail_distance" = "里程";
+"route_detail_speed" = "平均车速";
+"route_detail_start_time" = "出发时间";
+"route_detail_duration" = "总时长";
+
+"route_date_day" = "日";
+
+"title_no_record_list" = "暂无历史轨迹";
+
+"alert_title_check_route" = "查看轨迹";
+"alert_tip_check_route" = "是否要查看行车轨迹？";
+
+"alert_title_delete_route" = "删除轨迹";
+"alert_tip_delete_route" = "删除轨迹记录将不可恢复，确定要删除吗？";
+
+"tip_record_distance_short" = "行车轨迹不足100米，无法保存轨迹";
+
+
+// 权限
+"close_locate_alert_title" = "关闭后台定位";
+"close_locate_alert_msg" = "关闭后台定位后不会实时记录你的行车路线，确定要关闭吗？";
+
+"photo_authorization_alert_title" = "你已关闭照片权限";
+"photo_authorization_alert_msg" = "请在\"设置\"中为该应用打开照片权限";
+
+"camera_authorization_alert_title" = "你已关闭相机权限";
+"camera_authorization_alert_msg" = "请在\"设置\"中为该应用打开相机权限";
+
+"network_authorization_alert_title" = "你已关闭网络权限,可能会影响相关功能使用";
+"network_authorization_alert_msg" = "请在\"设置\"中为该应用打开网络权限";
+
+"locate_authorization_alert_title" = "你已关闭定位权限,无法使用地图和记录路线";
+"locate_authorization_alert_msg" = "请在\"设置\"中为该应用打开始终定位权限";
+
+"camera_setting_category_title1" = "系统设置";
+"camera_setting_category_title2" = "安全设置";
+"camera_setting_category_title3" = "WiFi设置";
+"camera_setting_category_title4" = "记录仪信息";
+
+"camera_setting_wifi_psw" = "请输入WiFi密码";
+"format_tf_card_alert_sub_title" = "确定要删除TF卡内的所有文件？";
+"default_setting_sub_title" = "将系统设置还原到出厂状态？";
+
+//引导页
+"introduce_title_page1" = "智能控制，随心所欲";
+"introduce_title_page2" = "实时观看，视频回放";
+"introduce_title_page3" = "精彩瞬间，一键分享";
+"introduce_title_page4" = "路拍轨迹，定位查看";
+"introduce_title_page5" = "自动检测，固件升级";
+"introduce_title_skip_button" = "跳过";
+"introduce_title_experience_button" = "立即体验";
+
+"privacy_agreement_title" = "App用户使用协议";
+"privacy_agreement_content_highlight" = "《用户使用协议》";
+"privacy_agreement_content" = "欢迎使用我们的App，我们非常重视您的隐私保护和个人信息保护，在您使用App服务前，请认真阅读《用户使用协议》全部条款，如您同意《用户使用协议》请点击\"同意\"开始使用我们的产品和服务，我们将尽全力保护您的信息安全。";
+"privacy_agreement_btn_disagree" = "不同意";
+"privacy_agreement_btn_agree" = "同意";
+"privacy_agreement_dialog_content" = "您需要同意《用户使用协议》后，才可使用本软件。";
+"privacy_agreement_dialog_ok" = "我知道了";
+
+"error_network_disconnect" = "网络连接已中断";
+"error_msg_unknown" = "未知错误";
+"error_msg_reach_max_client" = "记录仪照片达到上限，请删除一些照片后再拍照";
+"error_msg_command_timeout" = "超时";
+"error_msg_system_busy" = "系统繁忙";
+"error_msg_no_more_space" = "空间不足";
+"error_msg_invalid_param" = "参数无效";
+"error_msg_invalid_path" = "路径无效";
+"error_msg_invalid_operation" = "无效操作";
+"error_msg_invalid_no_tfcard" = "记录仪未插入存储卡";
+"error_msg_invalid_operation_unsupported" = "操作不支持";
+"error_msg_invalid_option_value" = "设置值无效";
+"error_msg_unformat_card" = "存储卡格式错误，请重新格式化";
+"error_msg_format_fail" = "存储卡格式化失败";
+
+// p2p
+"nav_title_p2p_player" = "远程看车";
+"nav_title_add_device_id" = "添加设备编号";
+"nav_title_scan_device_code" = "请扫描设备上的二维码";
+"title_scan_code_tip" = "将设备二维码放入框内, 即可自动扫描";
+"title_is_handling_qrcode" = "正在处理...";
+"please input device ID" = "请输入设备编号";
+"device ID cannot be nil" = "设备编号不能为空";
+
+"alert_title_check_photo_camera" = "温馨提示";
+"alert_title_check_photo_msg" = "未检测到你的摄像头";
+
+"alert_title_connect_car" = "记录仪已经连接车机";
+"alert_msg_connect_car" = "记录仪已连接车机,是否断开车机连接手机？";
+
+
+// 记录仪设置项有关
+"SETTING_ITEM_TIME_OPTION_TITLE" = "时间设置";
+"SETTING_ITEM_TIME_OPTION_AUTO" = "自动同步";
+"SETTING_ITEM_TIME_OPTION_MANUAL" = "手动设置";
+
+"SETTING_ITEM_VOLUME_OPTION_TITLE" = "音量设置";
+"SETTING_ITEM_VOLUME_OPTION_OFF" = "静音";
+"SETTING_ITEM_VOLUME_OPTION_LOW" = "低";
+"SETTING_ITEM_VOLUME_OPTION_MEDIUM" = "中";
+"SETTING_ITEM_VOLUME_OPTION_HIGH" = "高";
+"SETTING_ITEM_VOLUME_OPTION_100%" = "100%";
+"SETTING_ITEM_VOLUME_OPTION_75%" = "75%";
+"SETTING_ITEM_VOLUME_OPTION_50%" = "50%";
+"SETTING_ITEM_VOLUME_OPTION_MUTE" = "静音";
+
+"SETTING_ITEM_BUTTON_SOUND_OPTION_TITLE" = "按键音开关";
+
+"SETTING_ITEM_LANGUAGE_OPTION_TITLE" = "记录仪语言";
+
+"SETTING_ITEM_LANGUAGE_OPTION_CHINA_SIMPLE" = "简体中文";
+"SETTING_ITEM_LANGUAGE_OPTION_CHINESESIMPLE" = "简体中文";
+"SETTING_ITEM_LANGUAGE_OPTION_ENGLISH" = "English";
+"SETTING_ITEM_LANGUAGE_OPTION_CHINA_COMPLEX" = "繁體中文";
+"SETTING_ITEM_LANGUAGE_OPTION_CHINESECOMPLEX" = "繁體中文";
+"SETTING_ITEM_LANGUAGE_OPTION_RUSSIA" = "Pусский"; // 俄语
+"SETTING_ITEM_LANGUAGE_OPTION_ITALIAN" = "Lingua italiana";// 意大利
+"SETTING_ITEM_LANGUAGE_OPTION_UKRAINIAN" = "Українська"; //乌克兰
+"SETTING_ITEM_LANGUAGE_OPTION_ESTONIAN" = "Estoński"; // 爱沙尼亚
+"SETTING_ITEM_LANGUAGE_OPTION_LATVIAN" = "Latviešu"; // 拉脱维亚
+"SETTING_ITEM_LANGUAGE_OPTION_POLISH" = "Polski";// 波兰
+"SETTING_ITEM_LANGUAGE_OPTION_ROMANIAN" = "România"; //罗马尼亚
+"SETTING_ITEM_LANGUAGE_OPTION_SLOVAK" = "Slovenčina"; //斯洛伐克
+"SETTING_ITEM_LANGUAGE_OPTION_CZECH" = "čeština"; //捷克
+"SETTING_ITEM_LANGUAGE_OPTION_HUNGARIAN" = "Magyar"; //匈牙利
+"SETTING_ITEM_LANGUAGE_OPTION_JAPAN" = "日本語";
+"SETTING_ITEM_LANGUAGE_OPTION_GERMAN" = "Deutsche"; // GERMAN
+"SETTING_ITEM_LANGUAGE_OPTION_SPANISH" = "Español"; // 西班牙
+"SETTING_ITEM_LANGUAGE_OPTION_FRENCH" = "Français"; // 法国
+"SETTING_ITEM_LANGUAGE_OPTION_LITHUANIAN" = "Lithuanian"; //立陶宛
+"SETTING_ITEM_LANGUAGE_OPTION_PORTUGAL" = "Português"; // 葡萄牙
+
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_TITLE" = "屏幕自动关闭";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_OFF" = "关闭";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_30SEC" = "30秒";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_1MIN" = "1分钟";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_3MIN" = "3分钟";
+"SETTING_ITEM_LCD_AUTO_OFF_OPTION_5MIN" = "5分钟";
+
+"SETTING_ITEM_MIC_OPTION_TITLE" = "录音开关";
+
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_TITLE" = "自动关机设定";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_OFF" = "关闭";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_1MIN" = "1分钟";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_3MIN" = "3分钟";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_5MIN" = "5分钟";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_30SEC" = "30秒"; //30sec
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_60SEC" = "60秒";
+"SETTING_ITEM_AUTO_POWER_OFF_OPTION_90SEC" = "90秒";
+
+"SETTING_ITEM_FLICKER_OPTION_TITLE" = "闪屏校正";
+"SETTING_ITEM_FLICKER_OPTION_AUTO" = "自动";
+"SETTING_ITEM_FLICKER_OPTION_50HZ" = "50HZ";
+"SETTING_ITEM_FLICKER_OPTION_60HZ" = "60HZ";
+
+"SETTING_ITEM_EV_OPTION_TITLE" = "EV值设定";
+
+"SETTING_ITEM_STAMP_OPTION_TITLE" = "录像水印标签";
+"SETTING_ITEM_STAMP_OPTION_DATE" = "日期";
+"SETTING_ITEM_STAMP_OPTION_TIME" = "时间";
+"SETTING_ITEM_STAMP_OPTION_LOGO" = "Logo";
+"SETTING_ITEM_STAMP_OPTION_GPS" = "GPS";
+"SETTING_ITEM_STAMP_OPTION_SPEED" = "速度";
+"SETTING_ITEM_STAMP_OPTION_DRIVER_ID" = "司机编号";
+
+
+"SETTING_ITEM_DRIVER_ID_OPTION_TITLE" = "司机编号设置";
+"SETTING_ITEM_FORMAT_TF_OPTION_TITLE" = "格式化存储卡";
+"SETTING_ITEM_DEFAULT_SETTING_OPTION_TITLE" = "恢复出厂设定";
+
+
+"SETTING_ITEM_GSENSOR_OPTION_TITLE" = "碰撞灵敏度";
+"SETTING_ITEM_GSENSOR_OPTION_OFF" = "关闭";
+"SETTING_ITEM_GSENSOR_OPTION_LOW" = "低";
+"SETTING_ITEM_GSENSOR_OPTION_MEDIUM" = "中";
+"SETTING_ITEM_GSENSOR_OPTION_HIGH" = "高";
+
+"SETTING_ITEM_TIRED_TIP_OPTION_TITLE" = "疲劳驾驶提醒";
+"SETTING_ITEM_TIRED_TIP_OPTION_OFF" = "关闭";
+"SETTING_ITEM_TIRED_TIP_OPTION_30M" = "30分钟";
+"SETTING_ITEM_TIRED_TIP_OPTION_1H" = "1小时";
+"SETTING_ITEM_TIRED_TIP_OPTION_2H" = "2小时";
+"SETTING_ITEM_TIRED_TIP_OPTION_3H" = "3小时";
+"SETTING_ITEM_TIRED_TIP_OPTION_4H" = "4小时";
+
+"SETTING_ITEM_OPEN_LIGHT_OPTION_TITLE" = "开大灯提醒";
+"SETTING_ITEM_MOTION_DETECT_OPTION_TITLE" = "移动侦测";
+"SETTING_ITEM_PARKING_MODE_OPTION_TITLE" = "驻车监控";
+
+"SETTING_ITEM_BLUETEETH_OPTION_TITLE" = "蓝牙设置";
+
+"SETTING_ITEM_FCMD_OPTION_TITLE" = "前车起步提醒";
+"SETTING_ITEM_WIFI_SETTING_OPTION_TITLE" = "WiFi设置";
+
+
+"SETTING_ITEM_TF_CARD_REMAIN_SPACE_OPTION_TITLE" = "TF卡剩余容量";
+"SETTING_ITEM_CARDV_VERSION_TITLE" = "版本号";
+"SETTING_ITEM_PRODUCT_NUM_TITLE" = "产品编号";
+"SETTING_ITEM_FIREWARE_CHECK_TITLE" = "固件升级";
+
+
+"SETTING_ITEM_RESOLUTION_OPTION_TITLE" = "分辨率";
+"SETTING_ITEM_RESOLUTION_OPTION_1440P30FPS" = "1440P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1296P30FPS" = "1296P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P60FPS" = "1080P60FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P30FPS" = "1080P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P120FPS" = "720P120FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P60FPS" = "720P60FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P30FPS" = "720P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1524P30FPS" = "1524P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P1080P" = "1080P1080P";
+"SETTING_ITEM_RESOLUTION_OPTION_1080P1080PR" = "1080P1080PR";
+"SETTING_ITEM_RESOLUTION_OPTION_1296P720P" = "1296P720P";
+"SETTING_ITEM_RESOLUTION_OPTION_1296P720PR" = "1296P720PR";
+"SETTING_ITEM_RESOLUTION_OPTION_1728X129630FPS" = "1296P30FPS";
+"SETTING_ITEM_RESOLUTION_OPTION_720P720P" = "720P720P";
+
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_TITLE" = "屏幕显示方式";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_FRONT" = "前路";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_REAR" = "后路";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_BOTH" = "双路";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_BOTH_FRONT_FULL" = "前大后小";
+"SETTING_ITEM_SCREEN_DISPLAY_OPTION_BOTH_REAR_FULL" = "前小后大";
+
+"SETTING_ITEM_LOOP_RECORDING_OPTION_TITLE" = "循环录影";
+"SETTING_ITEM_LOOP_RECORDING_OPTION_1MIN" = "1分钟";
+"SETTING_ITEM_LOOP_RECORDING_OPTION_3MIN" = "3分钟";
+"SETTING_ITEM_LOOP_RECORDING_OPTION_5MIN" = "5分钟";
+
+"SETTING_ITEM_WDR_OPTION_TITLE" = "宽动态";
+
+"SETTING_ITEM_RECORD_MODE_OPTION_TITLE" = "监控模式";
+"SETTING_ITEM_RECORD_MODE_OPTION_OFF" = "关闭";
+"SETTING_ITEM_RECORD_MODE_OPTION_1FPS" = "一秒一拍";
+"SETTING_ITEM_RECORD_MODE_OPTION_MOTION_DETECTION" = "移动侦测";
+
+"SETTING_ITEM_RECORD_MODE_OPTION_SLOW_RECORDING" = "一秒一拍";
+"SETTING_ITEM_RECORD_MODE_OPTION_MOTION_DETECT" = "移动侦测";
+"SETTING_ITEM_RECORD_MODE_OPTION_PARKING_MODE" = "停车录像";
+
+"SETTING_ITEM_SNG_OPTION_TITLE" = "前车起步";
+"SETTING_ITEM_SNG_OPTION_OFF" = "关闭";
+"SETTING_ITEM_SNG_OPTION_ON" = "开启";
+
+"SETTING_ITEM_TSR_OPTION_TITLE" = "限速标志辨识";
+"SETTING_ITEM_TSR_OPTION_OFF" = "关闭";
+"SETTING_ITEM_TSR_OPTION_VOICE" = "语音";
+"SETTING_ITEM_TSR_OPTION_WARNING_TONE" = "警示音";
+"SETTING_ITEM_TSR_OPTION_ON" = "打开";
+
+"SETTING_ITEM_FORMAT_REMIND_OPTION_TITLE" = "格式化提示";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_OFF" = "关闭";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_15DAYS" = "15天";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_30DAYS" = "30天";
+"SETTING_ITEM_FORMAT_REMIND_OPTION_60DAYS" = "60天";
+
+"SETTING_ITEM_TIME_FORMAT_OPTION_TITLE" = "时间格式";
+"SETTING_ITEM_TIME_FORMAT_OPTION_YYYY/MM/DD" = "YYYY/MM/DD";
+"SETTING_ITEM_TIME_FORMAT_OPTION_MM/DD/YYYY" = "MM/DD/YYYY";
+"SETTING_ITEM_TIME_FORMAT_OPTION_DD/MM/YYYY" = "DD/MM/YYYY";
+
+"SETTING_ITEM_SLOW_RECORDING_OPTION_TITLE" = "一秒一帧";
+
+"SETTING_ITEM_BEEP_SOUND_OPTION_TITLE" = "提示音";
+
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_TITLE" = "图像质量";
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_SFINE" = "优质";
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_FINE" = "良好";
+"SETTING_ITEM_IMAGE_QUALITY_OPTION_NORMAL" = "标准";
+
+"SETTING_ITEM_HDR_OPTION_TITLE" = "HDR";
+
+"SETTING_ITEM_WB_OPTION_TITLE" = "白平衡";
+"SETTING_ITEM_WB_OPTION_AUTO" = "自动";
+"SETTING_ITEM_WB_OPTION_INCANDESCENT" = "白炽灯";
+"SETTING_ITEM_WB_OPTION_SUNNY" = "晴天";
+"SETTING_ITEM_WB_OPTION_CLOUDY" = "多云";
+"SETTING_ITEM_WB_OPTION_FLUORESCENT" = "荧光灯";
+
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_TITLE" = "延时开机";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_OFF" = "关闭";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_10SEC" = "10秒";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_20SEC" = "20秒";
+"SETTING_ITEM_POWER_ON_DELAY_OPTION_30SEC" = "30秒";
+
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_TITLE" = "延时关机";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_OFF" = "关闭";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_10SEC" = "10秒";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_20SEC" = "20秒";
+"SETTING_ITEM_POWER_OFF_DELAY_OPTION_30SEC" = "30秒";
+
+"SETTING_ITEM_OVERSPEED_OPTION_TITLE" = "超速提醒";
+"SETTING_ITEM_OVERSPEED_OPTION_OFF" = "关闭";
+"SETTING_ITEM_OVERSPEED_OPTION_70KM" = "70km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_80KM" = "80km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_90KM" = "90km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_100KM" = "100km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_110KM" = "110km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_120KM" = "120km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_130KM" = "130km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_140KM" = "140km/h";
+"SETTING_ITEM_OVERSPEED_OPTION_150KM" = "150km/h";
+
+"SETTING_ITEM_FCW_OPTION_TITLE" = "前车碰撞提醒";
+
+"SETTING_ITEM_LDWS_OPTION_TITLE" = "车道偏移提醒";
+
+"SETTING_ITEM_DIS_OPTION_TITLE" = "防抖";
+"SETTING_ITEM_LDC_OPTION_TITLE" = "畸变校正";
+
+
+"SETTING_ITEM_SPEED_UNIT_OPTION_TITLE" = "速度单位";
+"SETTING_ITEM_SPEED_UNIT_OPTION_KM/H" = "km/h";
+"SETTING_ITEM_SPEED_UNIT_OPTION_MPH" = "mph";
+
+
+"SETTING_ITEM_GPS_FORMAT_OPTION_TITLE" = "GPS水印格式";
+"SETTING_ITEM_GPS_FORMAT_OPTION_DD" = "DD";
+"SETTING_ITEM_GPS_FORMAT_OPTION_DMM" = "DMM";
+
+"SETTING_ITEM_IR_LED_OPTION_TITLE" = "红外灯设置";
+"SETTING_ITEM_IR_LED_OPTION_ON" = "打开";
+"SETTING_ITEM_IR_LED_OPTION_OFF" = "关闭";
+"SETTING_ITEM_IR_LED_OPTION_AUTO" = "自动";
+
+
+"SETTING_ITEM_RTSP_SWITCH_OPTION_TITLE" = "前后路切换";
+"SETTING_ITEM_RTSP_SWITCH_OPTION_FRONT" = "前路";
+"SETTING_ITEM_RTSP_SWITCH_OPTION_REAR" = "后路";

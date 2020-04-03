@@ -96,6 +96,11 @@ def handle_android():
 			sheet3.write(rowNum,14,sheet1.cell_value(row,13))
 			sheet3.write(rowNum,15,sheet1.cell_value(row,14))
 			sheet3.write(rowNum,16,sheet1.cell_value(row,15))
+
+			sheet3.write(rowNum,17,sheet1.cell_value(row,16))
+			sheet3.write(rowNum,18,sheet1.cell_value(row,17))
+			sheet3.write(rowNum,19,sheet1.cell_value(row,18))
+			sheet3.write(rowNum,20,sheet1.cell_value(row,19))
 			data3.save('osd.xls')
 	
 			
